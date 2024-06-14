@@ -1,10 +1,15 @@
 # ninja log v6
 1	15	7400537747480957	clean	dca9c3cf7370db46
-4	2269	7400537768487708	CMakeFiles/sweeper_visual.dir/src/rocket.cpp.obj	8c2de4d2b20f70d
-5	822	7400565362154759	CMakeFiles/sweeper_visual.dir/src/ticker_sdl.cpp.obj	23baca682a3aa9f3
-5	2278	7400605931170497	CMakeFiles/sweeper_visual.dir/src/visual.cpp.obj	21788c67672597d7
-2278	2550	7400605953900742	sweeper_visual.exe	58a4545b39c6ae11
-31	898	7400623995273476	CMakeFiles/sweeper_visual.dir/src/ticker_sdl.cpp.obj	cb674af23afccece
 5	2260	7400623995033472	CMakeFiles/sweeper_visual.dir/src/rocket.cpp.obj	8799df2f13522296
+31	898	7400623995273476	CMakeFiles/sweeper_visual.dir/src/ticker_sdl.cpp.obj	cb674af23afccece
 48	2323	7400623995453650	CMakeFiles/sweeper_visual.dir/src/visual.cpp.obj	95c823435c71ed0d
 2323	2589	7400624018206764	sweeper_visual.exe	1b300c39e9b53e71
+18	1853	7401542259081702	build.ninja	a7ee14318a2879c2
+20	1873	7401542259605386	CMakeFiles/sweeper_visual.dir/src/ticker_sdl.cpp.obj	cb674af23afccece
+2	2979	7401542259427656	CMakeFiles/sweeper_visual.dir/src/rocket.cpp.obj	8799df2f13522296
+38	3159	7401542259783546	CMakeFiles/sweeper_visual.dir/src/visual.cpp.obj	95c823435c71ed0d
+3159	3627	7401542290991642	sweeper_visual.exe	1b300c39e9b53e71
+5	2181	7401542414310250	CMakeFiles/sweeper_visual.dir/src/visual.cpp.obj	95c823435c71ed0d
+2182	2451	7401542436077282	sweeper_visual.exe	1b300c39e9b53e71
+8	2234	7401559052878771	CMakeFiles/sweeper_visual.dir/src/visual.cpp.obj	95c823435c71ed0d
+2234	2497	7401559075145249	sweeper_visual.exe	1b300c39e9b53e71

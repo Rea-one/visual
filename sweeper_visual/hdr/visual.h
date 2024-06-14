@@ -50,8 +50,8 @@ protected:
     // 资源库
     std::vector<SDL_Texture*> sources_renderer;
 
-    void init (int vertical, int horizon);
-    void set_shape (int vertical, int horizon);
+    void init (const int& vertical, const int& horizon);
+    void set_shape (const int& vertical, const int& horizon);
     void draw (int vertical, int horizon, int type) const;
     void source_load (const std::string& file_path, SDL_Renderer* target, const std::vector<std::string>& indexes);
     void source_destroy ();

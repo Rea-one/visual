@@ -26,10 +26,11 @@ void visual::talk()
         SDL_PollEvent(&event);
         if (leek -> read(message))
         {
-            if (message.size() == 1)
-            {
-                generating = false;
-            }
+            // if (message.size() == 1)
+            // {
+            //     if (message[0] == 128)
+            //         generating = false;
+            // }
             if (message.size () == 2)
             {
                 init(message[0], message[1]);
@@ -55,7 +56,7 @@ void visual::draw(int vertical, int horizon, int type) const
     SDL_RenderCopy(drawer, sources_renderer[type], nullptr, &position);
 }
 
-void visual::set_shape(int vertical, int horizon)
+void visual::set_shape(const int& vertical, const int& horizon)
 {
     vertical_size = vertical;
     horizon_size = horizon;
@@ -64,7 +65,7 @@ void visual::set_shape(int vertical, int horizon)
     width = horizon_size * unit;
 }
 
-void visual::init(int vertical, int horizon)
+void visual::init(const int& vertical, const int& horizon)
 {
     source_destroy ();
     SDL_DestroyRenderer (drawer);
